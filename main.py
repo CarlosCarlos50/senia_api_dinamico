@@ -13,7 +13,7 @@ app = FastAPI()
 # Permite todos los orígenes para pruebas. En producción, reemplaza "*" por tu dominio de GitHub Pages.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://carloscarlos50.github.io"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
